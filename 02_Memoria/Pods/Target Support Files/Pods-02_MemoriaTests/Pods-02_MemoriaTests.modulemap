@@ -1,0 +1,6 @@
+framework module Pods_02_MemoriaTests {
+  umbrella header "Pods-02_MemoriaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
