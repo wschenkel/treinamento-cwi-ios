@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C20210E253E77410024A8EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C20210D253E77410024A8EE /* AppDelegate.swift */; };
+		2C202110253E77410024A8EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C20210F253E77410024A8EE /* SceneDelegate.swift */; };
+		2C202112253E77410024A8EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C202111253E77410024A8EE /* ViewController.swift */; };
+		2C202115253E77410024A8EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C202113253E77410024A8EE /* Main.storyboard */; };
+		2C202117253E77430024A8EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C202116253E77430024A8EE /* Assets.xcassets */; };
+		2C20211A253E77430024A8EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C202118253E77430024A8EE /* LaunchScreen.storyboard */; };
+		2C202125253E77440024A8EE /* _1_TelaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C202124253E77440024A8EE /* _1_TelaTests.swift */; };
+		2C202130253E77440024A8EE /* _1_TelaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C20212F253E77440024A8EE /* _1_TelaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C202121253E77440024A8EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C202102253E77410024A8EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C202109253E77410024A8EE;
+			remoteInfo = 01_Tela;
+		};
+		2C20212C253E77440024A8EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C202102253E77410024A8EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C202109253E77410024A8EE;
+			remoteInfo = 01_Tela;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C20210A253E77410024A8EE /* 01_Tela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 01_Tela.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C20210D253E77410024A8EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C20210F253E77410024A8EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C202111253E77410024A8EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C202114253E77410024A8EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C202116253E77430024A8EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C202119253E77430024A8EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C20211B253E77430024A8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C202120253E77440024A8EE /* 01_TelaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 01_TelaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C202124253E77440024A8EE /* _1_TelaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_TelaTests.swift; sourceTree = "<group>"; };
+		2C202126253E77440024A8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C20212B253E77440024A8EE /* 01_TelaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 01_TelaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C20212F253E77440024A8EE /* _1_TelaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_TelaUITests.swift; sourceTree = "<group>"; };
+		2C202131253E77440024A8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C202107253E77410024A8EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C20211D253E77440024A8EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C202128253E77440024A8EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C202101253E77410024A8EE = {
+			isa = PBXGroup;
+			children = (
+				2C20210C253E77410024A8EE /* 01_Tela */,
+				2C202123253E77440024A8EE /* 01_TelaTests */,
+				2C20212E253E77440024A8EE /* 01_TelaUITests */,
+				2C20210B253E77410024A8EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C20210B253E77410024A8EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C20210A253E77410024A8EE /* 01_Tela.app */,
+				2C202120253E77440024A8EE /* 01_TelaTests.xctest */,
+				2C20212B253E77440024A8EE /* 01_TelaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C20210C253E77410024A8EE /* 01_Tela */ = {
+			isa = PBXGroup;
+			children = (
+				2C20210D253E77410024A8EE /* AppDelegate.swift */,
+				2C20210F253E77410024A8EE /* SceneDelegate.swift */,
+				2C202111253E77410024A8EE /* ViewController.swift */,
+				2C202113253E77410024A8EE /* Main.storyboard */,
+				2C202116253E77430024A8EE /* Assets.xcassets */,
+				2C202118253E77430024A8EE /* LaunchScreen.storyboard */,
+				2C20211B253E77430024A8EE /* Info.plist */,
+			);
+			path = 01_Tela;
+			sourceTree = "<group>";
+		};
+		2C202123253E77440024A8EE /* 01_TelaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C202124253E77440024A8EE /* _1_TelaTests.swift */,
+				2C202126253E77440024A8EE /* Info.plist */,
+			);
+			path = 01_TelaTests;
+			sourceTree = "<group>";
+		};
+		2C20212E253E77440024A8EE /* 01_TelaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C20212F253E77440024A8EE /* _1_TelaUITests.swift */,
+				2C202131253E77440024A8EE /* Info.plist */,
+			);
+			path = 01_TelaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C202109253E77410024A8EE /* 01_Tela */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C202134253E77440024A8EE /* Build configuration list for PBXNativeTarget "01_Tela" */;
+			buildPhases = (
+				2C202106253E77410024A8EE /* Sources */,
+				2C202107253E77410024A8EE /* Frameworks */,
+				2C202108253E77410024A8EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 01_Tela;
+			productName = 01_Tela;
+			productReference = 2C20210A253E77410024A8EE /* 01_Tela.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C20211F253E77440024A8EE /* 01_TelaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C202137253E77440024A8EE /* Build configuration list for PBXNativeTarget "01_TelaTests" */;
+			buildPhases = (
+				2C20211C253E77440024A8EE /* Sources */,
+				2C20211D253E77440024A8EE /* Frameworks */,
+				2C20211E253E77440024A8EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C202122253E77440024A8EE /* PBXTargetDependency */,
+			);
+			name = 01_TelaTests;
+			productName = 01_TelaTests;
+			productReference = 2C202120253E77440024A8EE /* 01_TelaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C20212A253E77440024A8EE /* 01_TelaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C20213A253E77440024A8EE /* Build configuration list for PBXNativeTarget "01_TelaUITests" */;
+			buildPhases = (
+				2C202127253E77440024A8EE /* Sources */,
+				2C202128253E77440024A8EE /* Frameworks */,
+				2C202129253E77440024A8EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C20212D253E77440024A8EE /* PBXTargetDependency */,
+			);
+			name = 01_TelaUITests;
+			productName = 01_TelaUITests;
+			productReference = 2C20212B253E77440024A8EE /* 01_TelaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C202102253E77410024A8EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					2C202109253E77410024A8EE = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					2C20211F253E77440024A8EE = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 2C202109253E77410024A8EE;
+					};
+					2C20212A253E77440024A8EE = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 2C202109253E77410024A8EE;
+					};
+				};
+			};
+			buildConfigurationList = 2C202105253E77410024A8EE /* Build configuration list for PBXProject "01_Tela" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C202101253E77410024A8EE;
+			productRefGroup = 2C20210B253E77410024A8EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C202109253E77410024A8EE /* 01_Tela */,
+				2C20211F253E77440024A8EE /* 01_TelaTests */,
+				2C20212A253E77440024A8EE /* 01_TelaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C202108253E77410024A8EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C20211A253E77430024A8EE /* LaunchScreen.storyboard in Resources */,
+				2C202117253E77430024A8EE /* Assets.xcassets in Resources */,
+				2C202115253E77410024A8EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C20211E253E77440024A8EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C202129253E77440024A8EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C202106253E77410024A8EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C202112253E77410024A8EE /* ViewController.swift in Sources */,
+				2C20210E253E77410024A8EE /* AppDelegate.swift in Sources */,
+				2C202110253E77410024A8EE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C20211C253E77440024A8EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C202125253E77440024A8EE /* _1_TelaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C202127253E77440024A8EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C202130253E77440024A8EE /* _1_TelaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C202122253E77440024A8EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C202109253E77410024A8EE /* 01_Tela */;
+			targetProxy = 2C202121253E77440024A8EE /* PBXContainerItemProxy */;
+		};
+		2C20212D253E77440024A8EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C202109253E77410024A8EE /* 01_Tela */;
+			targetProxy = 2C20212C253E77440024A8EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C202113253E77410024A8EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C202114253E77410024A8EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C202118253E77430024A8EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C202119253E77430024A8EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C202132253E77440024A8EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C202133253E77440024A8EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C202135253E77440024A8EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U9MR3PTXT;
+				INFOPLIST_FILE = 01_Tela/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cwi.treinamento.wschenkel.-1-Tela";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C202136253E77440024A8EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U9MR3PTXT;
+				INFOPLIST_FILE = 01_Tela/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cwi.treinamento.wschenkel.-1-Tela";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C202138253E77440024A8EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U9MR3PTXT;
+				INFOPLIST_FILE = 01_TelaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cwi.treinamento.wschenkel.-1-TelaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01_Tela.app/01_Tela";
+			};
+			name = Debug;
+		};
+		2C202139253E77440024A8EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U9MR3PTXT;
+				INFOPLIST_FILE = 01_TelaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cwi.treinamento.wschenkel.-1-TelaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01_Tela.app/01_Tela";
+			};
+			name = Release;
+		};
+		2C20213B253E77440024A8EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U9MR3PTXT;
+				INFOPLIST_FILE = 01_TelaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cwi.treinamento.wschenkel.-1-TelaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 01_Tela;
+			};
+			name = Debug;
+		};
+		2C20213C253E77440024A8EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U9MR3PTXT;
+				INFOPLIST_FILE = 01_TelaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cwi.treinamento.wschenkel.-1-TelaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 01_Tela;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C202105253E77410024A8EE /* Build configuration list for PBXProject "01_Tela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C202132253E77440024A8EE /* Debug */,
+				2C202133253E77440024A8EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C202134253E77440024A8EE /* Build configuration list for PBXNativeTarget "01_Tela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C202135253E77440024A8EE /* Debug */,
+				2C202136253E77440024A8EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C202137253E77440024A8EE /* Build configuration list for PBXNativeTarget "01_TelaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C202138253E77440024A8EE /* Debug */,
+				2C202139253E77440024A8EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C20213A253E77440024A8EE /* Build configuration list for PBXNativeTarget "01_TelaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C20213B253E77440024A8EE /* Debug */,
+				2C20213C253E77440024A8EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C202102253E77410024A8EE /* Project object */;
+}
