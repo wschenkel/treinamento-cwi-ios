@@ -1,0 +1,6 @@
+framework module Pods_01_Tela_01_TelaUITests {
+  umbrella header "Pods-01_Tela-01_TelaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

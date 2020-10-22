@@ -15,6 +15,19 @@
 		2C20211A253E77430024A8EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C202118253E77430024A8EE /* LaunchScreen.storyboard */; };
 		2C202125253E77440024A8EE /* _1_TelaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C202124253E77440024A8EE /* _1_TelaTests.swift */; };
 		2C202130253E77440024A8EE /* _1_TelaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C20212F253E77440024A8EE /* _1_TelaUITests.swift */; };
+		2CD67060253FB74600D00B5E /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CD67056253FB74500D00B5E /* OpenSans-Italic.ttf */; };
+		2CD67061253FB74600D00B5E /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CD67057253FB74500D00B5E /* OpenSans-ExtraBold.ttf */; };
+		2CD67062253FB74600D00B5E /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CD67058253FB74500D00B5E /* OpenSans-ExtraBoldItalic.ttf */; };
+		2CD67063253FB74600D00B5E /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CD67059253FB74500D00B5E /* OpenSans-LightItalic.ttf */; };
+		2CD67064253FB74600D00B5E /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CD6705A253FB74500D00B5E /* OpenSans-SemiBold.ttf */; };
+		2CD67065253FB74600D00B5E /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CD6705B253FB74600D00B5E /* OpenSans-SemiBoldItalic.ttf */; };
+		2CD67066253FB74600D00B5E /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CD6705C253FB74600D00B5E /* OpenSans-BoldItalic.ttf */; };
+		2CD67067253FB74600D00B5E /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CD6705D253FB74600D00B5E /* OpenSans-Light.ttf */; };
+		2CD67068253FB74600D00B5E /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CD6705E253FB74600D00B5E /* OpenSans-Regular.ttf */; };
+		2CD67069253FB74600D00B5E /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CD6705F253FB74600D00B5E /* OpenSans-Bold.ttf */; };
+		675FEDB4EDCDA4227FADC2D5 /* Pods_01_Tela.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB0C8A7F34F7D3C729B58AD /* Pods_01_Tela.framework */; };
+		E9230095E56DEB3075A9488C /* Pods_01_Tela_01_TelaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E514E987C1C2FE9CE82163 /* Pods_01_Tela_01_TelaUITests.framework */; };
+		F86FFAB859F8C8345E38D9B1 /* Pods_01_TelaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D41BA232C4AD0F2BC964B /* Pods_01_TelaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E9822CBD375A4F8230E11A6 /* Pods-01_Tela-01_TelaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01_Tela-01_TelaUITests.debug.xcconfig"; path = "Target Support Files/Pods-01_Tela-01_TelaUITests/Pods-01_Tela-01_TelaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		205E00ABE64569781C563AD0 /* Pods-01_TelaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01_TelaTests.debug.xcconfig"; path = "Target Support Files/Pods-01_TelaTests/Pods-01_TelaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C20210A253E77410024A8EE /* 01_Tela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 01_Tela.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C20210D253E77410024A8EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C20210F253E77410024A8EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,23 @@
 		2C20212B253E77440024A8EE /* 01_TelaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 01_TelaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C20212F253E77440024A8EE /* _1_TelaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_TelaUITests.swift; sourceTree = "<group>"; };
 		2C202131253E77440024A8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD67056253FB74500D00B5E /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Italic.ttf"; path = "../../../../../03_Nospresso/Nospresso/Recursos/Fontes/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		2CD67057253FB74500D00B5E /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBold.ttf"; path = "../../../../../03_Nospresso/Nospresso/Recursos/Fontes/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		2CD67058253FB74500D00B5E /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBoldItalic.ttf"; path = "../../../../../03_Nospresso/Nospresso/Recursos/Fontes/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		2CD67059253FB74500D00B5E /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-LightItalic.ttf"; path = "../../../../../03_Nospresso/Nospresso/Recursos/Fontes/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		2CD6705A253FB74500D00B5E /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-SemiBold.ttf"; path = "../../../../../03_Nospresso/Nospresso/Recursos/Fontes/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		2CD6705B253FB74600D00B5E /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-SemiBoldItalic.ttf"; path = "../../../../../03_Nospresso/Nospresso/Recursos/Fontes/OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		2CD6705C253FB74600D00B5E /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-BoldItalic.ttf"; path = "../../../../../03_Nospresso/Nospresso/Recursos/Fontes/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		2CD6705D253FB74600D00B5E /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Light.ttf"; path = "../../../../../03_Nospresso/Nospresso/Recursos/Fontes/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		2CD6705E253FB74600D00B5E /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "../../../../../03_Nospresso/Nospresso/Recursos/Fontes/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		2CD6705F253FB74600D00B5E /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "../../../../../03_Nospresso/Nospresso/Recursos/Fontes/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		2DD52472747B54A39A893960 /* Pods-01_TelaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01_TelaTests.release.xcconfig"; path = "Target Support Files/Pods-01_TelaTests/Pods-01_TelaTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F81AECDB1F4FD6DB104791E /* Pods-01_Tela.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01_Tela.debug.xcconfig"; path = "Target Support Files/Pods-01_Tela/Pods-01_Tela.debug.xcconfig"; sourceTree = "<group>"; };
+		67E514E987C1C2FE9CE82163 /* Pods_01_Tela_01_TelaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_01_Tela_01_TelaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		692D41BA232C4AD0F2BC964B /* Pods_01_TelaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_01_TelaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A46DCF2AEC802DA1707BA4C /* Pods-01_Tela.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01_Tela.release.xcconfig"; path = "Target Support Files/Pods-01_Tela/Pods-01_Tela.release.xcconfig"; sourceTree = "<group>"; };
+		8EB0C8A7F34F7D3C729B58AD /* Pods_01_Tela.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_01_Tela.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF8D7C4AAF124036362744D /* Pods-01_Tela-01_TelaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01_Tela-01_TelaUITests.release.xcconfig"; path = "Target Support Files/Pods-01_Tela-01_TelaUITests/Pods-01_Tela-01_TelaUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				675FEDB4EDCDA4227FADC2D5 /* Pods_01_Tela.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86FFAB859F8C8345E38D9B1 /* Pods_01_TelaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9230095E56DEB3075A9488C /* Pods_01_Tela_01_TelaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +118,8 @@
 				2C202123253E77440024A8EE /* 01_TelaTests */,
 				2C20212E253E77440024A8EE /* 01_TelaUITests */,
 				2C20210B253E77410024A8EE /* Products */,
+				3D4CCE8A6CF9E4D38D040C2F /* Pods */,
+				B22546FC491803ABB768E398 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +136,7 @@
 		2C20210C253E77410024A8EE /* 01_Tela */ = {
 			isa = PBXGroup;
 			children = (
+				2CD67054253FB6F900D00B5E /* Recursos */,
 				2C20210D253E77410024A8EE /* AppDelegate.swift */,
 				2C20210F253E77410024A8EE /* SceneDelegate.swift */,
 				2C202111253E77410024A8EE /* ViewController.swift */,
@@ -128,6 +166,54 @@
 			path = 01_TelaUITests;
 			sourceTree = "<group>";
 		};
+		2CD67054253FB6F900D00B5E /* Recursos */ = {
+			isa = PBXGroup;
+			children = (
+				2CD67055253FB70000D00B5E /* Fontes */,
+			);
+			path = Recursos;
+			sourceTree = "<group>";
+		};
+		2CD67055253FB70000D00B5E /* Fontes */ = {
+			isa = PBXGroup;
+			children = (
+				2CD6705F253FB74600D00B5E /* OpenSans-Bold.ttf */,
+				2CD6705C253FB74600D00B5E /* OpenSans-BoldItalic.ttf */,
+				2CD67057253FB74500D00B5E /* OpenSans-ExtraBold.ttf */,
+				2CD67058253FB74500D00B5E /* OpenSans-ExtraBoldItalic.ttf */,
+				2CD67056253FB74500D00B5E /* OpenSans-Italic.ttf */,
+				2CD6705D253FB74600D00B5E /* OpenSans-Light.ttf */,
+				2CD67059253FB74500D00B5E /* OpenSans-LightItalic.ttf */,
+				2CD6705E253FB74600D00B5E /* OpenSans-Regular.ttf */,
+				2CD6705A253FB74500D00B5E /* OpenSans-SemiBold.ttf */,
+				2CD6705B253FB74600D00B5E /* OpenSans-SemiBoldItalic.ttf */,
+			);
+			path = Fontes;
+			sourceTree = "<group>";
+		};
+		3D4CCE8A6CF9E4D38D040C2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F81AECDB1F4FD6DB104791E /* Pods-01_Tela.debug.xcconfig */,
+				6A46DCF2AEC802DA1707BA4C /* Pods-01_Tela.release.xcconfig */,
+				1E9822CBD375A4F8230E11A6 /* Pods-01_Tela-01_TelaUITests.debug.xcconfig */,
+				EDF8D7C4AAF124036362744D /* Pods-01_Tela-01_TelaUITests.release.xcconfig */,
+				205E00ABE64569781C563AD0 /* Pods-01_TelaTests.debug.xcconfig */,
+				2DD52472747B54A39A893960 /* Pods-01_TelaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B22546FC491803ABB768E398 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EB0C8A7F34F7D3C729B58AD /* Pods_01_Tela.framework */,
+				67E514E987C1C2FE9CE82163 /* Pods_01_Tela_01_TelaUITests.framework */,
+				692D41BA232C4AD0F2BC964B /* Pods_01_TelaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C202134253E77440024A8EE /* Build configuration list for PBXNativeTarget "01_Tela" */;
 			buildPhases = (
+				2158709D5CAD656B0E4E28EF /* [CP] Check Pods Manifest.lock */,
 				2C202106253E77410024A8EE /* Sources */,
 				2C202107253E77410024A8EE /* Frameworks */,
 				2C202108253E77410024A8EE /* Resources */,
@@ -152,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C202137253E77440024A8EE /* Build configuration list for PBXNativeTarget "01_TelaTests" */;
 			buildPhases = (
+				07D02D7AF13A3EF6AA5F93ED /* [CP] Check Pods Manifest.lock */,
 				2C20211C253E77440024A8EE /* Sources */,
 				2C20211D253E77440024A8EE /* Frameworks */,
 				2C20211E253E77440024A8EE /* Resources */,
@@ -170,6 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C20213A253E77440024A8EE /* Build configuration list for PBXNativeTarget "01_TelaUITests" */;
 			buildPhases = (
+				48B3EE504B8AF41B19CDE196 /* [CP] Check Pods Manifest.lock */,
 				2C202127253E77440024A8EE /* Sources */,
 				2C202128253E77440024A8EE /* Frameworks */,
 				2C202129253E77440024A8EE /* Resources */,
@@ -231,9 +320,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD67065253FB74600D00B5E /* OpenSans-SemiBoldItalic.ttf in Resources */,
 				2C20211A253E77430024A8EE /* LaunchScreen.storyboard in Resources */,
+				2CD67062253FB74600D00B5E /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				2CD67063253FB74600D00B5E /* OpenSans-LightItalic.ttf in Resources */,
+				2CD67066253FB74600D00B5E /* OpenSans-BoldItalic.ttf in Resources */,
+				2CD67060253FB74600D00B5E /* OpenSans-Italic.ttf in Resources */,
+				2CD67064253FB74600D00B5E /* OpenSans-SemiBold.ttf in Resources */,
 				2C202117253E77430024A8EE /* Assets.xcassets in Resources */,
 				2C202115253E77410024A8EE /* Main.storyboard in Resources */,
+				2CD67067253FB74600D00B5E /* OpenSans-Light.ttf in Resources */,
+				2CD67069253FB74600D00B5E /* OpenSans-Bold.ttf in Resources */,
+				2CD67068253FB74600D00B5E /* OpenSans-Regular.ttf in Resources */,
+				2CD67061253FB74600D00B5E /* OpenSans-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +351,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07D02D7AF13A3EF6AA5F93ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-01_TelaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2158709D5CAD656B0E4E28EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-01_Tela-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48B3EE504B8AF41B19CDE196 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-01_Tela-01_TelaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C202106253E77410024A8EE /* Sources */ = {
@@ -433,6 +601,7 @@
 		};
 		2C202135253E77440024A8EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F81AECDB1F4FD6DB104791E /* Pods-01_Tela.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +621,7 @@
 		};
 		2C202136253E77440024A8EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A46DCF2AEC802DA1707BA4C /* Pods-01_Tela.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +641,7 @@
 		};
 		2C202138253E77440024A8EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205E00ABE64569781C563AD0 /* Pods-01_TelaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +664,7 @@
 		};
 		2C202139253E77440024A8EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD52472747B54A39A893960 /* Pods-01_TelaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +687,7 @@
 		};
 		2C20213B253E77440024A8EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E9822CBD375A4F8230E11A6 /* Pods-01_Tela-01_TelaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +708,7 @@
 		};
 		2C20213C253E77440024A8EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF8D7C4AAF124036362744D /* Pods-01_Tela-01_TelaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
