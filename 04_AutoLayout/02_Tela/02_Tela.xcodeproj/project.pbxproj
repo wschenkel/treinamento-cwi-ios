@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C6231BE254269D200913160 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6231BD254269D200913160 /* AppDelegate.swift */; };
+		2C6231C0254269D200913160 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6231BF254269D200913160 /* SceneDelegate.swift */; };
+		2C6231C2254269D200913160 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6231C1254269D200913160 /* ViewController.swift */; };
+		2C6231C5254269D200913160 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6231C3254269D200913160 /* Main.storyboard */; };
+		2C6231C7254269D500913160 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6231C6254269D500913160 /* Assets.xcassets */; };
+		2C6231CA254269D500913160 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6231C8254269D500913160 /* LaunchScreen.storyboard */; };
+		2C6231D5254269D600913160 /* _2_TelaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6231D4254269D600913160 /* _2_TelaTests.swift */; };
+		2C6231E0254269D600913160 /* _2_TelaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6231DF254269D600913160 /* _2_TelaUITests.swift */; };
+		2C6231FB25427A0A00913160 /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6231FA25427A0A00913160 /* UIView+IBInspectable.swift */; };
+		63BABB46BC207D9D2C7B753B /* Pods_02_Tela.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C401D125CD50FDCF29DCCBAD /* Pods_02_Tela.framework */; };
+		8AB95AD8DC6A3A221B60EC9D /* Pods_02_TelaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EFF496ECF0DD6B01260240 /* Pods_02_TelaTests.framework */; };
+		BAA9749BC42FF40852449DCA /* Pods_02_Tela_02_TelaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D88ECD914F1738155E97BE /* Pods_02_Tela_02_TelaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C6231D1254269D600913160 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C6231B2254269D200913160 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C6231B9254269D200913160;
+			remoteInfo = 02_Tela;
+		};
+		2C6231DC254269D600913160 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C6231B2254269D200913160 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C6231B9254269D200913160;
+			remoteInfo = 02_Tela;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C6231BA254269D200913160 /* 02_Tela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 02_Tela.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6231BD254269D200913160 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C6231BF254269D200913160 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C6231C1254269D200913160 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C6231C4254269D200913160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C6231C6254269D500913160 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C6231C9254269D500913160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C6231CB254269D500913160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C6231D0254269D600913160 /* 02_TelaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 02_TelaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6231D4254269D600913160 /* _2_TelaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2_TelaTests.swift; sourceTree = "<group>"; };
+		2C6231D6254269D600913160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C6231DB254269D600913160 /* 02_TelaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 02_TelaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6231DF254269D600913160 /* _2_TelaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2_TelaUITests.swift; sourceTree = "<group>"; };
+		2C6231E1254269D600913160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C6231FA25427A0A00913160 /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
+		35D88ECD914F1738155E97BE /* Pods_02_Tela_02_TelaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_02_Tela_02_TelaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		423D9EF8F4D53E3F2FF30C23 /* Pods-02_Tela-02_TelaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-02_Tela-02_TelaUITests.release.xcconfig"; path = "Target Support Files/Pods-02_Tela-02_TelaUITests/Pods-02_Tela-02_TelaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4583910A291532A17CEB8188 /* Pods-02_TelaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-02_TelaTests.debug.xcconfig"; path = "Target Support Files/Pods-02_TelaTests/Pods-02_TelaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CEEA68D5AAF775C571FE600 /* Pods-02_Tela.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-02_Tela.debug.xcconfig"; path = "Target Support Files/Pods-02_Tela/Pods-02_Tela.debug.xcconfig"; sourceTree = "<group>"; };
+		70EFF496ECF0DD6B01260240 /* Pods_02_TelaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_02_TelaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C401D125CD50FDCF29DCCBAD /* Pods_02_Tela.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_02_Tela.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36142974254B7F5B4AFAD8F /* Pods-02_TelaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-02_TelaTests.release.xcconfig"; path = "Target Support Files/Pods-02_TelaTests/Pods-02_TelaTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC868C26F0A31D15FB38A056 /* Pods-02_Tela.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-02_Tela.release.xcconfig"; path = "Target Support Files/Pods-02_Tela/Pods-02_Tela.release.xcconfig"; sourceTree = "<group>"; };
+		FDD46CF550B3B7C13A403247 /* Pods-02_Tela-02_TelaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-02_Tela-02_TelaUITests.debug.xcconfig"; path = "Target Support Files/Pods-02_Tela-02_TelaUITests/Pods-02_Tela-02_TelaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C6231B7254269D200913160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BABB46BC207D9D2C7B753B /* Pods_02_Tela.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6231CD254269D600913160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB95AD8DC6A3A221B60EC9D /* Pods_02_TelaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6231D8254269D600913160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA9749BC42FF40852449DCA /* Pods_02_Tela_02_TelaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C6231B1254269D200913160 = {
+			isa = PBXGroup;
+			children = (
+				2C6231BC254269D200913160 /* 02_Tela */,
+				2C6231D3254269D600913160 /* 02_TelaTests */,
+				2C6231DE254269D600913160 /* 02_TelaUITests */,
+				2C6231BB254269D200913160 /* Products */,
+				9368111EBD28813695D7CBFA /* Pods */,
+				D2716F0BDE79731656361490 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C6231BB254269D200913160 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C6231BA254269D200913160 /* 02_Tela.app */,
+				2C6231D0254269D600913160 /* 02_TelaTests.xctest */,
+				2C6231DB254269D600913160 /* 02_TelaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C6231BC254269D200913160 /* 02_Tela */ = {
+			isa = PBXGroup;
+			children = (
+				2C6231F9254279E900913160 /* Extencoes */,
+				2C6231BD254269D200913160 /* AppDelegate.swift */,
+				2C6231BF254269D200913160 /* SceneDelegate.swift */,
+				2C6231C1254269D200913160 /* ViewController.swift */,
+				2C6231C3254269D200913160 /* Main.storyboard */,
+				2C6231C6254269D500913160 /* Assets.xcassets */,
+				2C6231C8254269D500913160 /* LaunchScreen.storyboard */,
+				2C6231CB254269D500913160 /* Info.plist */,
+			);
+			path = 02_Tela;
+			sourceTree = "<group>";
+		};
+		2C6231D3254269D600913160 /* 02_TelaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C6231D4254269D600913160 /* _2_TelaTests.swift */,
+				2C6231D6254269D600913160 /* Info.plist */,
+			);
+			path = 02_TelaTests;
+			sourceTree = "<group>";
+		};
+		2C6231DE254269D600913160 /* 02_TelaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C6231DF254269D600913160 /* _2_TelaUITests.swift */,
+				2C6231E1254269D600913160 /* Info.plist */,
+			);
+			path = 02_TelaUITests;
+			sourceTree = "<group>";
+		};
+		2C6231F9254279E900913160 /* Extencoes */ = {
+			isa = PBXGroup;
+			children = (
+				2C6231FA25427A0A00913160 /* UIView+IBInspectable.swift */,
+			);
+			path = Extencoes;
+			sourceTree = "<group>";
+		};
+		9368111EBD28813695D7CBFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CEEA68D5AAF775C571FE600 /* Pods-02_Tela.debug.xcconfig */,
+				DC868C26F0A31D15FB38A056 /* Pods-02_Tela.release.xcconfig */,
+				FDD46CF550B3B7C13A403247 /* Pods-02_Tela-02_TelaUITests.debug.xcconfig */,
+				423D9EF8F4D53E3F2FF30C23 /* Pods-02_Tela-02_TelaUITests.release.xcconfig */,
+				4583910A291532A17CEB8188 /* Pods-02_TelaTests.debug.xcconfig */,
+				D36142974254B7F5B4AFAD8F /* Pods-02_TelaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D2716F0BDE79731656361490 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C401D125CD50FDCF29DCCBAD /* Pods_02_Tela.framework */,
+				35D88ECD914F1738155E97BE /* Pods_02_Tela_02_TelaUITests.framework */,
+				70EFF496ECF0DD6B01260240 /* Pods_02_TelaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C6231B9254269D200913160 /* 02_Tela */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6231E4254269D600913160 /* Build configuration list for PBXNativeTarget "02_Tela" */;
+			buildPhases = (
+				B19CFDD894492ED4A087A9E4 /* [CP] Check Pods Manifest.lock */,
+				2C6231B6254269D200913160 /* Sources */,
+				2C6231B7254269D200913160 /* Frameworks */,
+				2C6231B8254269D200913160 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 02_Tela;
+			productName = 02_Tela;
+			productReference = 2C6231BA254269D200913160 /* 02_Tela.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C6231CF254269D600913160 /* 02_TelaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6231E7254269D600913160 /* Build configuration list for PBXNativeTarget "02_TelaTests" */;
+			buildPhases = (
+				33D9FBE752A07B91C44F4DBA /* [CP] Check Pods Manifest.lock */,
+				2C6231CC254269D600913160 /* Sources */,
+				2C6231CD254269D600913160 /* Frameworks */,
+				2C6231CE254269D600913160 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C6231D2254269D600913160 /* PBXTargetDependency */,
+			);
+			name = 02_TelaTests;
+			productName = 02_TelaTests;
+			productReference = 2C6231D0254269D600913160 /* 02_TelaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C6231DA254269D600913160 /* 02_TelaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6231EA254269D600913160 /* Build configuration list for PBXNativeTarget "02_TelaUITests" */;
+			buildPhases = (
+				0EC0583A81B52CED1B7936B6 /* [CP] Check Pods Manifest.lock */,
+				2C6231D7254269D600913160 /* Sources */,
+				2C6231D8254269D600913160 /* Frameworks */,
+				2C6231D9254269D600913160 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C6231DD254269D600913160 /* PBXTargetDependency */,
+			);
+			name = 02_TelaUITests;
+			productName = 02_TelaUITests;
+			productReference = 2C6231DB254269D600913160 /* 02_TelaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C6231B2254269D200913160 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					2C6231B9254269D200913160 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					2C6231CF254269D600913160 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 2C6231B9254269D200913160;
+					};
+					2C6231DA254269D600913160 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 2C6231B9254269D200913160;
+					};
+				};
+			};
+			buildConfigurationList = 2C6231B5254269D200913160 /* Build configuration list for PBXProject "02_Tela" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C6231B1254269D200913160;
+			productRefGroup = 2C6231BB254269D200913160 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C6231B9254269D200913160 /* 02_Tela */,
+				2C6231CF254269D600913160 /* 02_TelaTests */,
+				2C6231DA254269D600913160 /* 02_TelaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C6231B8254269D200913160 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6231CA254269D500913160 /* LaunchScreen.storyboard in Resources */,
+				2C6231C7254269D500913160 /* Assets.xcassets in Resources */,
+				2C6231C5254269D200913160 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6231CE254269D600913160 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6231D9254269D600913160 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EC0583A81B52CED1B7936B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-02_Tela-02_TelaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33D9FBE752A07B91C44F4DBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-02_TelaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B19CFDD894492ED4A087A9E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-02_Tela-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C6231B6254269D200913160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6231C2254269D200913160 /* ViewController.swift in Sources */,
+				2C6231BE254269D200913160 /* AppDelegate.swift in Sources */,
+				2C6231FB25427A0A00913160 /* UIView+IBInspectable.swift in Sources */,
+				2C6231C0254269D200913160 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6231CC254269D600913160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6231D5254269D600913160 /* _2_TelaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6231D7254269D600913160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6231E0254269D600913160 /* _2_TelaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C6231D2254269D600913160 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C6231B9254269D200913160 /* 02_Tela */;
+			targetProxy = 2C6231D1254269D600913160 /* PBXContainerItemProxy */;
+		};
+		2C6231DD254269D600913160 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C6231B9254269D200913160 /* 02_Tela */;
+			targetProxy = 2C6231DC254269D600913160 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C6231C3254269D200913160 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C6231C4254269D200913160 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C6231C8254269D500913160 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C6231C9254269D500913160 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C6231E2254269D600913160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C6231E3254269D600913160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C6231E5254269D600913160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CEEA68D5AAF775C571FE600 /* Pods-02_Tela.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U9MR3PTXT;
+				INFOPLIST_FILE = 02_Tela/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cwi.treinamento.wschenkel.-2-Tela";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C6231E6254269D600913160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC868C26F0A31D15FB38A056 /* Pods-02_Tela.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U9MR3PTXT;
+				INFOPLIST_FILE = 02_Tela/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cwi.treinamento.wschenkel.-2-Tela";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C6231E8254269D600913160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4583910A291532A17CEB8188 /* Pods-02_TelaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U9MR3PTXT;
+				INFOPLIST_FILE = 02_TelaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cwi.treinamento.wschenkel.-2-TelaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02_Tela.app/02_Tela";
+			};
+			name = Debug;
+		};
+		2C6231E9254269D600913160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36142974254B7F5B4AFAD8F /* Pods-02_TelaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U9MR3PTXT;
+				INFOPLIST_FILE = 02_TelaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cwi.treinamento.wschenkel.-2-TelaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02_Tela.app/02_Tela";
+			};
+			name = Release;
+		};
+		2C6231EB254269D600913160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD46CF550B3B7C13A403247 /* Pods-02_Tela-02_TelaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U9MR3PTXT;
+				INFOPLIST_FILE = 02_TelaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cwi.treinamento.wschenkel.-2-TelaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 02_Tela;
+			};
+			name = Debug;
+		};
+		2C6231EC254269D600913160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 423D9EF8F4D53E3F2FF30C23 /* Pods-02_Tela-02_TelaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U9MR3PTXT;
+				INFOPLIST_FILE = 02_TelaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cwi.treinamento.wschenkel.-2-TelaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 02_Tela;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C6231B5254269D200913160 /* Build configuration list for PBXProject "02_Tela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6231E2254269D600913160 /* Debug */,
+				2C6231E3254269D600913160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C6231E4254269D600913160 /* Build configuration list for PBXNativeTarget "02_Tela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6231E5254269D600913160 /* Debug */,
+				2C6231E6254269D600913160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C6231E7254269D600913160 /* Build configuration list for PBXNativeTarget "02_TelaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6231E8254269D600913160 /* Debug */,
+				2C6231E9254269D600913160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C6231EA254269D600913160 /* Build configuration list for PBXNativeTarget "02_TelaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6231EB254269D600913160 /* Debug */,
+				2C6231EC254269D600913160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C6231B2254269D200913160 /* Project object */;
+}

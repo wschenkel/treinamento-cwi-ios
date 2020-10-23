@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		47B332AA225AF3F334F1BAA4 /* Pods_NospressoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31CF2B1E13BF7A79573336B7 /* Pods_NospressoTests.framework */; };
 		615E732CC391A5F80A991823 /* Pods_Nospresso.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B463DD3487EF2AFA46347A7B /* Pods_Nospresso.framework */; };
+		819997BB253F77BC00C6F9FA /* DetalheCafeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819997BA253F77BC00C6F9FA /* DetalheCafeViewController.swift */; };
+		819997C1253F7F7200C6F9FA /* ContadorIntensidadeStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819997C0253F7F7200C6F9FA /* ContadorIntensidadeStackView.swift */; };
+		819997C9253F887C00C6F9FA /* DetalheCafePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819997C8253F887C00C6F9FA /* DetalheCafePresenter.swift */; };
+		819997CE253F88FD00C6F9FA /* DetalheCafe+Protocolos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819997CD253F88FD00C6F9FA /* DetalheCafe+Protocolos.swift */; };
 		81F79884253B178900A78EDB /* MenuProdutosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F79883253B178900A78EDB /* MenuProdutosViewController.swift */; };
 		81F7988A253B1F4800A78EDB /* UIViewController+Barbadas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F79889253B1F4800A78EDB /* UIViewController+Barbadas.swift */; };
 		81F7989E253B2E6D00A78EDB /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F7989D253B2E6D00A78EDB /* R.generated.swift */; };
@@ -17,6 +21,7 @@
 		81F798D0253B323D00A78EDB /* CategoriaDeCafeHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81F798CF253B323D00A78EDB /* CategoriaDeCafeHeaderView.xib */; };
 		81F798D8253B3D3100A78EDB /* UIImageView+CarregarImagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F798D7253B3D3100A78EDB /* UIImageView+CarregarImagem.swift */; };
 		8EA68FD8E1C9741DBE1877BA /* Pods_Nospresso_NospressoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B754B3661B4082387191435 /* Pods_Nospresso_NospressoUITests.framework */; };
+		960EA920253B8BF500781E9C /* Double+Dinheiros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960EA91F253B8BF500781E9C /* Double+Dinheiros.swift */; };
 		A703691C25386B930031EF69 /* Acessorio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A703691B25386B930031EF69 /* Acessorio.swift */; };
 		A703692125386C220031EF69 /* AcessorioItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A703692025386C220031EF69 /* AcessorioItem.swift */; };
 		A71D89292538EC7600D26DD8 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A71D891F2538EC7500D26DD8 /* OpenSans-Bold.ttf */; };
@@ -69,6 +74,10 @@
 		5B754B3661B4082387191435 /* Pods_Nospresso_NospressoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nospresso_NospressoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F070FA65CE622BF583B22D /* Pods-Nospresso-NospressoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nospresso-NospressoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Nospresso-NospressoUITests/Pods-Nospresso-NospressoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B0002DB6B4AF97F9B1224EA /* Pods-Nospresso.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nospresso.release.xcconfig"; path = "Target Support Files/Pods-Nospresso/Pods-Nospresso.release.xcconfig"; sourceTree = "<group>"; };
+		819997BA253F77BC00C6F9FA /* DetalheCafeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheCafeViewController.swift; sourceTree = "<group>"; };
+		819997C0253F7F7200C6F9FA /* ContadorIntensidadeStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorIntensidadeStackView.swift; sourceTree = "<group>"; };
+		819997C8253F887C00C6F9FA /* DetalheCafePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheCafePresenter.swift; sourceTree = "<group>"; };
+		819997CD253F88FD00C6F9FA /* DetalheCafe+Protocolos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetalheCafe+Protocolos.swift"; sourceTree = "<group>"; };
 		81F79883253B178900A78EDB /* MenuProdutosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuProdutosViewController.swift; sourceTree = "<group>"; };
 		81F79889253B1F4800A78EDB /* UIViewController+Barbadas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Barbadas.swift"; sourceTree = "<group>"; };
 		81F7989D253B2E6D00A78EDB /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
@@ -76,6 +85,7 @@
 		81F798C7253B31FF00A78EDB /* CategoriaDeCafeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriaDeCafeHeaderView.swift; sourceTree = "<group>"; };
 		81F798CF253B323D00A78EDB /* CategoriaDeCafeHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriaDeCafeHeaderView.xib; sourceTree = "<group>"; };
 		81F798D7253B3D3100A78EDB /* UIImageView+CarregarImagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+CarregarImagem.swift"; sourceTree = "<group>"; };
+		960EA91F253B8BF500781E9C /* Double+Dinheiros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Dinheiros.swift"; sourceTree = "<group>"; };
 		A703691B25386B930031EF69 /* Acessorio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acessorio.swift; sourceTree = "<group>"; };
 		A703692025386C220031EF69 /* AcessorioItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcessorioItem.swift; sourceTree = "<group>"; };
 		A71D891F2538EC7500D26DD8 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
@@ -156,12 +166,32 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		819997B9253F779500C6F9FA /* DetalheCafe */ = {
+			isa = PBXGroup;
+			children = (
+				819997BF253F7F5300C6F9FA /* Componentes */,
+				819997BA253F77BC00C6F9FA /* DetalheCafeViewController.swift */,
+				819997C8253F887C00C6F9FA /* DetalheCafePresenter.swift */,
+				819997CD253F88FD00C6F9FA /* DetalheCafe+Protocolos.swift */,
+			);
+			path = DetalheCafe;
+			sourceTree = "<group>";
+		};
+		819997BF253F7F5300C6F9FA /* Componentes */ = {
+			isa = PBXGroup;
+			children = (
+				819997C0253F7F7200C6F9FA /* ContadorIntensidadeStackView.swift */,
+			);
+			path = Componentes;
+			sourceTree = "<group>";
+		};
 		81F79888253B1F3900A78EDB /* Extensoes */ = {
 			isa = PBXGroup;
 			children = (
 				81F79889253B1F4800A78EDB /* UIViewController+Barbadas.swift */,
 				81F798C0253B304400A78EDB /* Pseudonimos.swift */,
 				81F798D7253B3D3100A78EDB /* UIImageView+CarregarImagem.swift */,
+				960EA91F253B8BF500781E9C /* Double+Dinheiros.swift */,
 			);
 			path = Extensoes;
 			sourceTree = "<group>";
@@ -212,6 +242,7 @@
 		A71D89362538F48C00D26DD8 /* Modulos */ = {
 			isa = PBXGroup;
 			children = (
+				819997B9253F779500C6F9FA /* DetalheCafe */,
 				A71D89372538F49600D26DD8 /* Cafes */,
 				81F79883253B178900A78EDB /* MenuProdutosViewController.swift */,
 			);
@@ -607,16 +638,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A71D89412538FA9C00D26DD8 /* CafeTableViewCell.swift in Sources */,
+				819997C9253F887C00C6F9FA /* DetalheCafePresenter.swift in Sources */,
 				A7677E7025363AA5004FC18E /* ViewController.swift in Sources */,
 				81F798D8253B3D3100A78EDB /* UIImageView+CarregarImagem.swift in Sources */,
 				81F798C1253B304400A78EDB /* Pseudonimos.swift in Sources */,
+				819997CE253F88FD00C6F9FA /* DetalheCafe+Protocolos.swift in Sources */,
 				81F7989E253B2E6D00A78EDB /* R.generated.swift in Sources */,
 				81F79884253B178900A78EDB /* MenuProdutosViewController.swift in Sources */,
 				A71D89392538F4B400D26DD8 /* CafesTableViewController.swift in Sources */,
+				819997BB253F77BC00C6F9FA /* DetalheCafeViewController.swift in Sources */,
 				A703692125386C220031EF69 /* AcessorioItem.swift in Sources */,
 				A78F143B2536593200CA0B85 /* CategoriaCafe.swift in Sources */,
 				81F798C8253B31FF00A78EDB /* CategoriaDeCafeHeaderView.swift in Sources */,
 				81F7988A253B1F4800A78EDB /* UIViewController+Barbadas.swift in Sources */,
+				960EA920253B8BF500781E9C /* Double+Dinheiros.swift in Sources */,
+				819997C1253F7F7200C6F9FA /* ContadorIntensidadeStackView.swift in Sources */,
 				A78F145325365A4E00CA0B85 /* Endpoint.swift in Sources */,
 				A7677E6C25363AA5004FC18E /* AppDelegate.swift in Sources */,
 				A78F14402536595400CA0B85 /* Cafe.swift in Sources */,
@@ -801,7 +837,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V5LV8F8H2P;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Nospresso/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -821,7 +857,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V5LV8F8H2P;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Nospresso/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
