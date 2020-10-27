@@ -1,0 +1,6 @@
+framework module Pods_03_TelaTests {
+  umbrella header "Pods-03_TelaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

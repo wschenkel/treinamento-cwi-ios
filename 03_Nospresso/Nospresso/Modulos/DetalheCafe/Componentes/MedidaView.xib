@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Light.ttf">
+            <string>OpenSans-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MedidaView" customModule="Nospresso" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="81" height="24"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a8W-RH-6W7">
+                    <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="Qpw-w9-reO"/>
+                        <constraint firstAttribute="width" constant="24" id="ncl-DH-4k7"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20g-Xl-RQ9">
+                    <rect key="frame" x="28" y="5" width="45" height="14"/>
+                    <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="12"/>
+                    <color key="textColor" name="TextoDiscreto"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="20g-Xl-RQ9" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="PqJ-Ki-UP1"/>
+                <constraint firstItem="a8W-RH-6W7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Q68-eg-5Cs"/>
+                <constraint firstItem="20g-Xl-RQ9" firstAttribute="leading" secondItem="a8W-RH-6W7" secondAttribute="trailing" constant="4" id="TNq-O0-yJf"/>
+                <constraint firstAttribute="bottom" secondItem="a8W-RH-6W7" secondAttribute="bottom" id="hBY-Ez-XbJ"/>
+                <constraint firstItem="a8W-RH-6W7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kK2-3U-S9s"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="20g-Xl-RQ9" secondAttribute="trailing" constant="8" id="r73-ah-AFg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="canequinhaImageView" destination="a8W-RH-6W7" id="CZ8-xl-9Fx"/>
+                <outlet property="nomeLabel" destination="20g-Xl-RQ9" id="EFH-mb-bic"/>
+            </connections>
+            <point key="canvasLocation" x="138" y="125"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="TextoDiscreto">
+            <color red="0.56862745098039214" green="0.56862745098039214" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

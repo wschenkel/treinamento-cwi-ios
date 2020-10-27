@@ -15,6 +15,13 @@ public struct Cafe: Decodable {
     let imagem: String
     let medidas: [Medida]
     let intensidade: Int?
+    let origem: String?
+    let torrefacao: String?
+    let perfilAromatico: String?
+    
+    var precoSleeve: Double {
+        precoUnitario * 10
+    }
     
     enum Medida: String, Decodable {
         case ristretto,
