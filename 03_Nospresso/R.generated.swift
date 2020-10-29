@@ -541,10 +541,12 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
 
-  /// This `R.nib` struct is generated, and contains static references to 4 nibs.
+  /// This `R.nib` struct is generated, and contains static references to 5 nibs.
   struct nib {
     /// Nib `CategoriaDeCafeHeaderView`.
     static let categoriaDeCafeHeaderView = _R.nib._CategoriaDeCafeHeaderView()
+    /// Nib `DetalheProdutoModalViewController`.
+    static let detalheProdutoModalViewController = _R.nib._DetalheProdutoModalViewController()
     /// Nib `MaquinaCollectionViewCell`.
     static let maquinaCollectionViewCell = _R.nib._MaquinaCollectionViewCell()
     /// Nib `MaquinasViewController`.
@@ -557,6 +559,14 @@ struct R: Rswift.Validatable {
     @available(*, deprecated, message: "Use UINib(resource: R.nib.categoriaDeCafeHeaderView) instead")
     static func categoriaDeCafeHeaderView(_: Void = ()) -> UIKit.UINib {
       return UIKit.UINib(resource: R.nib.categoriaDeCafeHeaderView)
+    }
+    #endif
+
+    #if os(iOS) || os(tvOS)
+    /// `UINib(name: "DetalheProdutoModalViewController", in: bundle)`
+    @available(*, deprecated, message: "Use UINib(resource: R.nib.detalheProdutoModalViewController) instead")
+    static func detalheProdutoModalViewController(_: Void = ()) -> UIKit.UINib {
+      return UIKit.UINib(resource: R.nib.detalheProdutoModalViewController)
     }
     #endif
 
@@ -586,6 +596,10 @@ struct R: Rswift.Validatable {
 
     static func categoriaDeCafeHeaderView(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> CategoriaDeCafeHeaderView? {
       return R.nib.categoriaDeCafeHeaderView.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? CategoriaDeCafeHeaderView
+    }
+
+    static func detalheProdutoModalViewController(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> UIKit.UIView? {
+      return R.nib.detalheProdutoModalViewController.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? UIKit.UIView
     }
 
     static func maquinaCollectionViewCell(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> MaquinaCollectionViewCell? {
@@ -639,6 +653,7 @@ struct _R: Rswift.Validatable {
   #if os(iOS) || os(tvOS)
   struct nib: Rswift.Validatable {
     static func validate() throws {
+      try _DetalheProdutoModalViewController.validate()
       try _MaquinaCollectionViewCell.validate()
     }
 
@@ -648,6 +663,25 @@ struct _R: Rswift.Validatable {
 
       func firstView(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> CategoriaDeCafeHeaderView? {
         return instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? CategoriaDeCafeHeaderView
+      }
+
+      fileprivate init() {}
+    }
+
+    struct _DetalheProdutoModalViewController: Rswift.NibResourceType, Rswift.Validatable {
+      let bundle = R.hostingBundle
+      let name = "DetalheProdutoModalViewController"
+
+      func firstView(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> UIKit.UIView? {
+        return instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? UIKit.UIView
+      }
+
+      static func validate() throws {
+        if UIKit.UIImage(named: "heart", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'heart' is used in nib 'DetalheProdutoModalViewController', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "xmark", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'xmark' is used in nib 'DetalheProdutoModalViewController', but couldn't be loaded.") }
+        if #available(iOS 11.0, tvOS 11.0, *) {
+          if UIKit.UIColor(named: "TextoEscuro", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Color named 'TextoEscuro' is used in storyboard 'DetalheProdutoModalViewController', but couldn't be loaded.") }
+        }
       }
 
       fileprivate init() {}
